@@ -15,6 +15,8 @@ ActiveRecord::Schema.define(version: 2021_11_25_040312) do
   create_table "employees", charset: "utf8mb4", force: :cascade do |t|
     t.string "last_name"
     t.string "first_name"
+    t.string "emp_code"
+    t.string "name"
     t.integer "bitemporal_id"
     t.datetime "valid_from"
     t.datetime "valid_to"
